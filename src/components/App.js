@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
 import Header from "./Header";
+import Footer from "./Footer";
 
 function App() {
   return (
-      <Header/>
+      <div className='app'>
+        <Header/>
+        <div className='content'>CONTENT</div>
+        <Footer/>
+      </div>
+
   );
 }
 

@@ -1,0 +1,10 @@
+.header {
+    top: 0;
+    height: 50px;
+    border: 1px dotted black;
+
+}
+
+.logo {
+    height: 100%;
+}

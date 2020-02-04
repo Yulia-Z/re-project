@@ -1,0 +1,9 @@
+.menu {
+    width: 80%;
+    float: right;
+}
+
+.menu-item {
+    padding: 0 10px;
+    width: 25%;
+}

@@ -1,20 +1,19 @@
 import React from 'react';
-import Menu from "./Menu";
 import Logo from "./Logo";
-import './Header.css'
+import './Footer.css';
 
 
-function Header() {
+const Footer = () => {
   return (
-    <div className='header'>
+    <div className='footer'>
       <div className='float-left logo'>
         <Logo/>
       </div>
       <div>
-        <Menu/>
+        Footer
       </div>
     </div>
   );
-}
+};
 
-export default Header;
+export default Footer;

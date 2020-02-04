@@ -1,11 +1,15 @@
 import React from 'react';
 
-function MenuItem() {
+const MenuItem = ({ item }) => {
   return (
-    <div>
-      MenuItem
-    </div>
+    <a className='nav-link' href='#'>
+      { item }
+    </a>
   );
-}
+};
 
 export default MenuItem;
+
+
+
+
