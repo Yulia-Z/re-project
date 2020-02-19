@@ -5,7 +5,9 @@ import './Logo.css'
 
 function Logo() {
   return (
-      <img src={logo} className="logo" alt="logo" />
+      <div className='float-left logo'>
+        <img src={logo} className="logo" alt="logo" />
+      </div>
   );
 }
 

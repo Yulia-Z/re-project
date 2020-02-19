@@ -5,14 +5,12 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='footer'>
-      <div className='float-left logo'>
-        <Logo/>
-      </div>
+    <footer className='footer'>
+      <Logo/>
       <div>
         Footer
       </div>
-    </div>
+    </footer>
   );
 };
 
