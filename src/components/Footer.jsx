@@ -1,14 +1,16 @@
 import React from 'react';
 import Logo from "./Logo";
-import './Footer.css';
+import Menu from "./Menu";
 
 
-const Footer = () => {
+const Footer = ({ headerMenuItems, footerMenuItems, text }) => {
   return (
-    <footer className='footer'>
-      <Logo/>
-      <div>
-        Footer
+    <footer>
+      <div className="container">
+        <Logo/>
+        <Menu items={headerMenuItems}/>
+        <Menu items={footerMenuItems}/>
+        <p>&copy; {text}</p>
       </div>
     </footer>
   );

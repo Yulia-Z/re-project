@@ -1,15 +1,14 @@
 import React from 'react';
 import Menu from "./Menu";
 import Logo from "./Logo";
-import './Header.css'
 
 
-function Header() {
+function Header({ menuItems }) {
   return (
-    <header className='header'>
+    <header>
+      <div className="container">
         <Logo/>
-      <div>
-        <Menu/>
+        <Menu items={menuItems}/>
       </div>
     </header>
   );
